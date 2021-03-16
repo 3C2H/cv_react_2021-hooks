@@ -36,12 +36,12 @@ function App () {
   async function getResumeData() {
     const response = await fetch('/resumeData.json');
     const resumeData = await response.json();
-    console.log(resumeData);
   }
   
   getResumeData();
   
   useEffect (() => {
+    console.log('RESUME_LOG:', resumeData);
     setresumeData(resumeData)
   },[])
 
