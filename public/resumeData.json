@@ -1,0 +1,174 @@
+{
+  "main": {
+    "name":"Charles-Alexandre Chiacchia",
+    "occupation":"Web developpeur junior",
+    "description":"JavaScript/Node/React/Angular",
+    "image":"profilepic.jpg",
+    "bio":"Une part technique, une part artistique, et une (grande) part informatique. Passionné depuis toujours par ce domaine, je me suis donné pour défi d'en faire ma profession. A la suite d'une carriere dans l'industrie, je me suis orienté sur une formation intensive à Javascript, Nodejs, React, HTML & CSS Effectuée dans un cadre concret et mise en pratique par la réalisation de plusieurs projets web.",
+    "contactmessage":"Mon profil vous intéresse ? N'hésitez pas, contactez moi !",
+    "email": "Charles.CHIACCHIA@Gmail.com",
+    "phone": "+33 6 88 44 39 77",
+    "address":{
+      "street":"1 Bis, Rue du DR Roux",
+      "city":"Aulnay sous bois",
+      "state":"France",
+      "zip": "93600"
+    },
+    "website": "",
+    "resumedownload":"https://3c2h.github.io/CV-HTML/",
+    "social":[
+        {
+          "name":"linkedin",
+          "url":"https://www.linkedin.com/in/charles-alexandre-chiacchia-a39667165/",
+          "className":"fa fa-linkedin"
+        },
+      {
+        "name":"github",
+        "url":"http://github.com/3c2h",
+        "className":"fa fa-github"
+      }
+    ]
+  },
+  "resume":{
+    "skillmessage":"Voici mes outils de référence",
+    "education":[
+      {
+        "school":"SCRIMBA",
+        "degree":"DEVELOPPEUR REACT",
+        "graduated":"2020",
+        "description":"Formation avancée Javascript/React."
+      },
+      {
+        "school":"Wild code School, Paris",
+        "degree":"DEVELOPPEUR WEB & LOGICIELS",
+        "graduated":"2018",
+        "description":"Formation intensive Javascript, Node, React, HTML, CSS, Git, MongoDB, MySQL, frameworks."
+      },
+      {
+        "school":"ETS Global, Paris",
+        "degree":"TOEIC",
+        "graduated":"2013",
+        "description":"Validation du niveau d'expression en anglais SCORES : Compréhension orale et écrite 980/990, Elocution et expression écrite : 330/400"
+      },
+      {
+        "school":"Lycée Saint Nicolas, Paris",
+        "degree":"BTS MAI",
+        "graduated":"2007",
+        "description":"Formation de concepteur en automates industriels,"
+      },
+      {
+        "school":"Lycée Voillaume, Aulnay sous Bois",
+        "degree":"BAC STI",
+        "graduated":"2003",
+        "description":"Formation aux technologies et techniques industrielles"
+      }
+    ],
+    "work":[
+      {
+        "company":"SCRIMBA",
+        "title":"développeur",
+        "years":"2020",
+        "description":"Apprentissage de REACT et de ses outils avancés, par la réalisation d'exercices interactifs et de projets. (formation à temps plein)"
+      },
+      {
+        "company":"WOP",
+        "title":"développeur stagiaire",
+        "years":"2019",
+        "description":"Développement en fullstack des composants d'une application Angular de billetterie pour transports urbains. Utilisation de Git & Jira pour le versionning, Mocha, Chai & Postman pour les phases de tests, MongoDB Nosqlbooster pour la base de données. Développement de la partie achats, de l'interface utilisateur et de l'interface administrateur. Réalisation des test (TDD), développement de correctifs."
+      },
+      {
+        "company":"WILD CODE SCHOOL",
+        "title":"développeur Web/Logiciels",
+        "years":"2018",
+        "description":"Formation intensive sur Javascript, Node.js, REACT, HTML, CSS, avec notamment l'utilisation de Git & GitHub, MongoDB, MySQL, Eléctron, Bootstrap. Réalisation & présentation de 3 projets en méthodes agiles, avec le rôle de scrum-master."
+      },
+      {
+        "company":"LOGOPAK FRANCE",
+        "title":"Technicien SAV itinérant",
+        "years":"2014 - 2016",
+        "description":"Déploiement et S.A.V d'étiqueteuses industrielles à haute cadence, et des systèmes informatiques inhérents (PC, bases de données, réseaux); assistance technique et formations clients, référent technique, veille, échanges en anglais avec le siège lorsque à l’étranger."
+      },
+      {
+        "company":"AXIOME CONCEPT",
+        "title":"Automaticien travaux neufs",
+        "years":"2011 - 2013 ",
+        "description":"Mise en place d'interfaces de supervision pour les parkings INDIGO; programmation des interfaces, déploiement hardware et logiciel, raccordement et tests fonctionnels, formation du personnel utilisateur."
+      },
+      {
+        "company":"VANDERLANDE INDUSTRIES",
+        "title":"Technicien systèmes automatisés",
+        "years":"2009 - 2011",
+        "description":"Maintenance et amélioration d'un prototype évolué de trieur automatisé haute cadence; poste en autonomie incluant les serveurs, réseaux et PC. Gestion d'intervenants extérieurs, rôle d'interface technique avec le client, échanges en anglais avec le siège Hollandais."
+      }
+    ],
+    "skills":[
+      {
+        "name":"Git",
+        "description":"",
+        "image":"git-original.svg"
+      },
+      {
+        "name":"GitHub",
+        "description":"",
+        "image":"github-original.svg"
+      },
+      {
+        "name":"JavaScript",
+        "description":"",
+        "image":"javascript.svg"
+      },
+      {
+        "name":"React Js",
+        "description":"",
+        "image":"react-original.svg"
+      },
+      {
+      "name":"Node.js",
+      "description":"",
+      "image":"nodejs-original.svg"
+      },
+      {
+        "name":"HTML5",
+        "description":"",
+        "image":"html5-original.svg"
+      },
+      {
+        "name":"CSS3",
+        "description":"",
+        "image":"css3-original.svg"
+      }
+    ] 
+  },
+
+  "portfolio":{
+    "projects": [
+      {
+        "title":"Wild Codak",
+        "category":"Gallerie d'exposition photographique, design & responsive",
+        "image":"Wildocodak-home.png",
+        "url":"https://dream-team-project-wcs.github.io/Wild-Codak/index.html"
+      },
+      {
+        "title":"Wild Source",
+        "category":"Annuaire de ressouces web, simple d'utilisation, design & responsive",
+        "image":"Wildsource(Admin).png",
+        "url":"https://github.com/WildCodeSchool/paris-0218-wild-source/blob/finitions-css/README.md"
+      },
+      {
+        "title":"Siouplait",
+        "category":"Application web progressive simplifiant la commande et le paiement, destinée aux food-trucks.",
+        "image":"Siouplait splash.png",
+        "url":"https://siouplait.github.io/order/"
+      },
+      {
+        "title":"WOP",
+        "category":"Application permettant l'achat et l'utilisation de titres de transport dématérialisés",
+        "image":"WOP-LOGO-GREEN.png",
+        "url":"http://wop-app.com/"
+      }
+    ]
+  },
+  "testimonials":{
+    "testimonials":[]
+  }
+}
