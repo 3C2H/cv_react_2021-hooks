@@ -103,16 +103,6 @@
     ],
     "skills":[
       {
-        "name":"Git",
-        "description":"",
-        "image":"git-original.svg"
-      },
-      {
-        "name":"GitHub",
-        "description":"",
-        "image":"github-original.svg"
-      },
-      {
         "name":"JavaScript",
         "description":"",
         "image":"javascript.svg"
@@ -126,6 +116,16 @@
       "name":"Node.js",
       "description":"",
       "image":"nodejs-original.svg"
+      },
+      {
+        "name":"Git",
+        "description":"",
+        "image":"git-original.svg"
+      },
+      {
+        "name":"GitHub",
+        "description":"",
+        "image":"github-original.svg"
       },
       {
         "name":"HTML5",
