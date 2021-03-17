@@ -17,7 +17,7 @@ function Footer() {
           </ul>
 
           <ul className="copyright">
-              <li>&copy; 2018 Charles CHIACCHIA</li>
+              <li>&copy; 2021 Charles CHIACCHIA</li>
               <li>Original design by <a title="Styleshout" href="http://www.styleshout.com/">Styleshout</a></li>
           </ul>
         </div>
