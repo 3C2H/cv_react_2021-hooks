@@ -1,6 +1,6 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-function About (props) {
+function About(props) {
 
    if(props.data){
       var name = props.data.name;
@@ -45,7 +45,6 @@ function About (props) {
             </div>
          </div>
       </div>
-
    </section>
    );
 }
