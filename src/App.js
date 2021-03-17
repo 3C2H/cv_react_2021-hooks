@@ -10,45 +10,22 @@ import Resume from './Components/Resume';
 // import Testimonials from './Components/Testimonials';
 // import Portfolio from './Components/Portfolio';
 
-function App () {
 
-  const [ resumeData, setresumeData ] = useState({})
-
-
-    // ReactGA.initialize('UA-110570651-1');
-    // ReactGA.pageview(window.location.pathname);
-
-  // getResumeData(){
-  //   $.ajax({
-  //     url:'/resumeData.json',
-  //     dataType:'json',
-  //     cache: false,
-  //     success: function(data){
-  //       this.setState({resumeData: data});
-  //     }.bind(this),
-  //     error: function(xhr, status, err){
-  //       console.log(err);
-  //       alert(err);
-  //     }
-  //   });
-  // }
-    // ***************************************
-  async function getResumeData() {
+function App() {
+  const [resumeData, setresumeData] = useState({});
+ 
+  async function fetchData() {
     const response = await fetch('/resumeData.json');
-    const resumeData = await response.json();
+    const jsonData = await response.json()
+
+    setresumeData(jsonData);
+    console.log('***JSON_LOG:***', resumeData);
   }
-  
-  getResumeData();
-  
-  useEffect (() => {
-    console.log('RESUME_LOG:', resumeData);
-    setresumeData(resumeData)
-  },[])
 
-  // componentDidMount(){
-  //   this.getResumeData();
-  // }
-
+  useEffect(() => {
+    fetchData()
+  }, [])
+ 
   return (
     <div className="App">
       <Header data={resumeData.main}/>
@@ -59,8 +36,8 @@ function App () {
       {/* <Contact data={resumeData.main}/> */}
       {/* <Footer data={resumeData.main}/> */}
     </div>
-  );
-  
+  )
+
 }
 
 export default App;
