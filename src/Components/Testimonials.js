@@ -1,20 +1,19 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-class Testimonials extends Component {
-  render() {
+function Testimonials() {
 
-    if(this.props.data){
-      var testimonials = this.props.data.testimonials.map(function(testimonials){
-        return  <li key={testimonials.user}>
+   if(props.data){
+      var testimonials = props.data.testimonials.map(function(testimonials){
+         return  <li key={testimonials.user}>
             <blockquote>
                <p>{testimonials.text}</p>
                <cite>{testimonials.user}</cite>
             </blockquote>
          </li>
       })
-    }
+   }
 
-    return (
+   return (
       <section id="testimonials">
       <div className="text-container">
          <div className="row">
@@ -25,14 +24,13 @@ class Testimonials extends Component {
 
             <div className="ten columns flex-container">
                   <ul className="slides">
-                      {testimonials}
+                        {testimonials}
                   </ul>
                </div>
             </div>
          </div>
-   </section>
-    );
-  }
+      </section>
+   );
 }
 
 export default Testimonials;
