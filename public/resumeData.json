@@ -1,19 +1,13 @@
 {
   "main": {
     "name":"Charles-Alexandre Chiacchia",
-    "occupation":"Web developpeur junior",
-    "description":"JavaScript/Node/React/Angular",
+    "occupation":"Developpeur Web",
+    "description":"JavaScript/Node/React",
     "image":"profilepic.jpg",
     "bio":"Une part technique, une part artistique, et une (grande) part informatique. Passionné depuis toujours par ce domaine, je me suis donné pour défi d'en faire ma profession. A la suite d'une carriere dans l'industrie, je me suis orienté sur une formation intensive à Javascript, Nodejs, React, HTML & CSS Effectuée dans un cadre concret et mise en pratique par la réalisation de plusieurs projets web.",
-    "contactmessage":"Mon profil vous intéresse ? N'hésitez pas, contactez moi !",
+    "contactmessage":"Mon profil vous intéresse ? Contactez moi !",
     "email": "Charles.CHIACCHIA@Gmail.com",
     "phone": "+33 6 88 44 39 77",
-    "address":{
-      "street":"1 Bis, Rue du DR Roux",
-      "city":"Aulnay sous bois",
-      "state":"France",
-      "zip": "93600"
-    },
     "website": "",
     "resumedownload":"https://3c2h.github.io/CV-HTML/",
     "social":[

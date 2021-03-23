@@ -6,10 +6,10 @@ function About(props) {
       var name = props.data.name;
       var profilepic= "images/"+props.data.image;
       var bio = props.data.bio;
-      var street = props.data.address.street;
-      var city = props.data.address.city;
-      var state = props.data.address.state;
-      var zip = props.data.address.zip;
+      // var street = props.data.address.street;
+      // var city = props.data.address.city;
+      // var state = props.data.address.state;
+      // var zip = props.data.address.zip;
       var phone= props.data.phone;
       var email = props.data.email;
       var resumeDownload = props.data.resumedownload;
@@ -29,19 +29,19 @@ function About(props) {
                <div className="columns contact-details">
                   <h2>Me contacter</h2>
                   <p className="address">
-						   <span>{name}</span><br />
+						   {/* <span>{name}</span><br />
 						   <span>{street}<br />
 						         {zip}, {city}, {state}
-                   </span><br />
+                   </span><br /> */}
 						   <span>{phone}</span><br />
                      <span>{email}</span>
 					   </p>
                </div>
-               {/* <div className="columns download">
+               <div className="columns download">
                   <p>
                      <a href={resumeDownload} className="button"><i className="fa fa-download"></i>Télécharger le CV</a>
                   </p>
-               </div> */}
+               </div>
             </div>
          </div>
       </div>

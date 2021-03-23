@@ -6,7 +6,7 @@ function Header(props) {
       var name = props.data.name;
       var occupation= props.data.occupation;
       var description= props.data.description;
-      var city= props.data.address.city;
+      // var city= props.data.address.city;
       var networks= props.data.social.map(function(network){
         return <li key={network.name}><a href={network.url}><i className={network.className}></i></a></li>
       })
