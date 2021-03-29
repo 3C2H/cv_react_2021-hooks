@@ -20,4 +20,4 @@ function DisplayContextProvider(props) {
 
 }
 
-export { DisplayContextprovider, DisplayContext }
+export { DisplayContextProvider, DisplayContext }
