@@ -1,15 +1,23 @@
-import React from 'react';
+import React, {useContext} from 'react';
+import {DisplayContext} from '../displayContext';
 // import Technologies from '/Technologies';
 
 function Resume(props) {
+  const context = useContext(DisplayContext)
 
   if(props.data){
     var skillmessage = props.data.skillmessage;
     var education = props.data.education.map(function(education){
-      return <div key={education.degree}><h3>{education.degree}</h3>
-      <p className="info">{education.school} <span>&bull;</span><em className="date">{education.graduated}</em></p>
-      <p>{education.description}</p></div>
-    })
+      return (
+        <div key={education.degree}>
+          <h3>{education.degree}</h3>
+            <p className="info">{education.school}
+              <span>&bull;</span>
+              <em className="date">{education.graduated}</em>
+            </p>
+            <p>{education.description}</p>
+        </div>
+    )})
     var work = props.data.work.map(function(work){
       return <div key={work.company}><h3>{work.company}</h3>
           <p className="info">{work.title}<span>&bull;</span> <em className="date">{work.years}</em></p>
