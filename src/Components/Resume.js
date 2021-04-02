@@ -23,11 +23,14 @@ function Resume(props) {
         </div>
     )})
     var work = props.data.work.map(function(work){
-      return <div key={work.company}><h3>{work.company}</h3>
+      return (
+        <div style={{display: displayStatus}}>
+        <div key={work.company}><h3>{work.company}</h3>
           <p className="info">{work.title}<span>&bull;</span> <em className="date">{work.years}</em></p>
           <p>{work.description}</p>
       </div>
-    })
+      </div>
+    )})
     var skills = props.data.skills.map(function(skills){
     var projectImage = '/images/technos/'+skills.image;
       return <div key={skills.name} className="columns feature-item">
@@ -40,31 +43,23 @@ function Resume(props) {
 
   return (
     <section id="resume">
-
+    
       <div className="row education">
-        <div className="three columns header-col">
+
+        <div className="six columns header-col">
           <h1><span onClick={toggleDisplay}>Formation</span></h1>
         </div>
-
-        <div className="nine columns main-col">
-          <div className="row item">
-            <div className="twelve columns">
-              {education}
-            </div>
-          </div>
-        </div>
-      </div>
-
-
-      <div className="row work">
-
-        <div className="three columns header-col">
-          <h1><span>Expérience</span></h1>
+        <div className="six columns header-col">
+          <h1><span onClick={toggleDisplay}>Expérience</span></h1>
         </div>
 
-        <div className="nine columns main-col">
+        <div className="six columns main-col">
+          {education}
+        </div>
+        <div className="six columns main-col">
           {work}
         </div>
+
       </div>
 
       <div className="row skill">
@@ -80,7 +75,7 @@ function Resume(props) {
 					</ul>
 			  </div>
       </div>
-   </section>
+    </section>
   );
 }
 

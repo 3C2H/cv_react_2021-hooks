@@ -7,7 +7,7 @@ function DisplayContextProvider(props) {
   const [displayStatus, setDisplayStatus] = useState('none')
 
   function toggleDisplay() {
-    displayStatus === 'none' ? setDisplayStatus('block') : setDisplayStatus('none')
+    displayStatus === 'none' ? setDisplayStatus('flex') : setDisplayStatus('none')
   }
 
   return(
