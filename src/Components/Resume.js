@@ -1,14 +1,17 @@
-import React, {useContext} from 'react';
-import {DisplayContext} from '../displayContext';
+import React, { useContext } from 'react';
+import { DisplayContext } from '../displayContext';
 // import Technologies from '/Technologies';
 
 function Resume(props) {
   const context = useContext(DisplayContext)
+  const { displayStatus, toggleDisplay } = context
+  
 
   if(props.data){
     var skillmessage = props.data.skillmessage;
     var education = props.data.education.map(function(education){
       return (
+        <div style={{display: displayStatus}}>
         <div key={education.degree}>
           <h3>{education.degree}</h3>
             <p className="info">{education.school}
@@ -16,6 +19,7 @@ function Resume(props) {
               <em className="date">{education.graduated}</em>
             </p>
             <p>{education.description}</p>
+        </div>
         </div>
     )})
     var work = props.data.work.map(function(work){
@@ -39,7 +43,7 @@ function Resume(props) {
 
       <div className="row education">
         <div className="three columns header-col">
-          <h1><span>Formation</span></h1>
+          <h1><span onClick={toggleDisplay}>Formation</span></h1>
         </div>
 
         <div className="nine columns main-col">
