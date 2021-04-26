@@ -8,7 +8,7 @@ import Resume from './Components/Resume';
 // import $ from 'jquery';
 // import Contact from './Components/Contact';
 // import Testimonials from './Components/Testimonials';
-// import Portfolio from './Components/Portfolio';
+import Portfolio from './Components/Portfolio';
 
 
 function App() {
@@ -31,7 +31,7 @@ function App() {
       <Header data={resumeData.main}/>
       <About data={resumeData.main}/>
       <Resume data={resumeData.resume}/>
-      {/* <Portfolio data={resumeData.portfolio}/> */}
+      <Portfolio data={resumeData.portfolio}/>
       {/* <Testimonials data={resumeData.testimonials}/> */}
       {/* <Contact data={resumeData.main}/> */}
       {/* <Footer data={resumeData.main}/> */}

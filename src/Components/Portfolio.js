@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Portfolio() {
+function Portfolio(props) {
 
   if(props.data){
     var projects = props.data.projects.map(function(projects){
@@ -27,7 +27,7 @@ function Portfolio() {
 
     <div className="row">
       <div className="twelve columns collapsed">
-        <h1>Les projets auquels j'ai contribué</h1>
+        <h1>Portfolio</h1>
         <div id="portfolio-wrapper" className="bgrid-quarters s-bgrid-thirds cf">
             {projects}
         </div>
