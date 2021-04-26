@@ -4,7 +4,7 @@
     "occupation":"Developpeur Web",
     "description":"JavaScript/Node/React",
     "image":"profilepic.jpg",
-    "bio":"Une part technique, une part artistique, et une (grande) part informatique. Passionné depuis toujours par ce domaine, je me suis donné pour défi d'en faire ma profession. A la suite d'une carriere dans l'industrie, je me suis orienté sur une formation intensive à Javascript, Nodejs, React, HTML & CSS Effectuée dans un cadre concret et mise en pratique par la réalisation de plusieurs projets web.",
+    "bio":"Une part technique, une part artistique, et une (grande) part informatique. Passionné depuis toujours par ce domaine, je me suis donné pour défi d'en faire ma profession. A la suite d'une carriere dans l'industrie, je me suis orienté sur une formation intensive à Javascript, Nodejs, React, HTML & CSS Effectuée dans un cadre concret et mise en pratique par la réalisation de projets web.",
     "contactmessage":"Mon profil vous intéresse ? Contactez moi !",
     "email": "Charles.CHIACCHIA@Gmail.com",
     "phone": "+33 6 88 44 39 77",
@@ -62,7 +62,7 @@
         "company":"SCRIMBA",
         "title":"développeur",
         "years":"2020",
-        "description":"Apprentissage de REACT et de ses outils avancés, par la réalisation d'exercices interactifs et de projets. (formation à temps plein)"
+        "description":"Apprentissage de REACT et de ses outils avancés, par la réalisation d'exercices interactifs. Réalisation de projets: Site de réservation hotelière, Salon de chat en temps réel, Site de recherche de films, Site de recherche pour recettes de cuisine. Techs utilisées: Firebase, Typecript, Mikro-orm..."        
       },
       {
         "company":"WOP",
@@ -149,16 +149,16 @@
         "url":"https://github.com/WildCodeSchool/paris-0218-wild-source/blob/finitions-css/README.md"
       },
       {
-        "title":"Siouplait",
-        "category":"Application web progressive simplifiant la commande et le paiement, destinée aux food-trucks.",
-        "image":"Siouplait splash.png",
-        "url":"https://siouplait.github.io/order/"
-      },
-      {
         "title":"WOP",
         "category":"Application permettant l'achat et l'utilisation de titres de transport dématérialisés",
         "image":"WOP-LOGO-GREEN.png",
         "url":"http://wop-app.com/"
+      },
+      {
+        "title":"Projets personnels",
+        "category":"mon repertoire de créations",
+        "image":"github-logo.png",
+        "url":"https://github.com/3C2H/"
       }
     ]
   },
