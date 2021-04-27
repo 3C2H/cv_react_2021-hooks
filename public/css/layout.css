@@ -240,6 +240,8 @@ ul#nav li.current a { color: #F06000; }
 
 #resume {
    background: #fff;
+   border-top: 2px solid #11abb0;
+   border-bottom: 2px solid #11abb0b5;
    padding-top: 30px;
    padding-bottom: 20px;
    overflow: hidden;
@@ -254,21 +256,30 @@ ul#nav li.current a { color: #F06000; }
    letter-spacing: 1px;
 }
 #resume h1 span {
+   border-bottom: 4px solid #11ABB0;
    font-size: .8em;
-   border-bottom: 2px solid #11ABB0;
+   font-style: italic;
    padding-bottom: 3px;
 }
 #resume h3 {
-   font: 1.8em 'librebaskerville-italic', serif;
+   font: 1.7em 'librebaskerville-italic', serif;
 }
+/* #resume > div.row.education > div.four.columns.main-col > div:nth-child(1) > div > h3 */
+#resume > div.row.education > div.four.columns.main-col > div > div > h3 {
+   font-size: 1.2em;
+} 
+
 
 #resume .header-col { padding-top: 9px; }
-#resume .main-col { padding-right: 10%; }
+#resume > div.row.education > div.four.columns.main-col { 
+   padding-right: 3%;
+   border-left: 2px solid #11abb03d;
+}
 
 .education, .work {
-   margin-bottom: 48px;
-   padding-bottom: 24px;
-   border-bottom: 1px solid #E8E8E8;
+   margin-bottom: 20px;
+   /* padding-bottom: 24px; */
+   /* border-bottom: 1px solid #E8E8E8; */
 }
 #resume .info {
    font: 16px/24px 'opensans-bold', sans-serif;
@@ -285,7 +296,8 @@ ul#nav li.current a { color: #F06000; }
    margin-top: 6px;
 }
 #resume .skill img {
-  max-width: 40%;
+   min-width: 60px;
+   max-width: 40%;
 }
 .skills-container {
 text-align: -webkit-center;
@@ -427,17 +439,18 @@ text-align: -webkit-center;
 /* ------------------------------------------------------------------ */
 
 #portfolio {
-   background: #ebeeee;
-   padding-top: 90px;
-   padding-bottom: 60px;
+   background: #2B2B2B;
+   padding-top: 10px;
+   padding-bottom: 20px;
 }
 #portfolio h1 {
-   font: 15px/24px 'opensans-semibold', sans-serif;
+   font: 2em 'opensans-bold', sans-serif;
    text-transform: uppercase;
    letter-spacing: 1px;
    text-align: center;
-   margin-bottom: 48px;
-   color: #95A3A3;
+   margin-top: 20px;
+   margin-bottom: 40px;
+   color: #11abb085;
 }
 
 /* Portfolio Content */

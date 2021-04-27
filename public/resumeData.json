@@ -24,13 +24,13 @@
     ]
   },
   "resume":{
-    "skillmessage":"Voici mes outils de référence",
+    "skillmessage":"Mes outils de référence",
     "education":[
       {
         "school":"SCRIMBA",
         "degree":"DEVELOPPEUR REACT",
         "graduated":"2020",
-        "description":"Formation avancée Javascript/React."
+        "description":"Formation sur React. Notions avancées"
       },
       {
         "school":"Wild code School, Paris",
@@ -60,19 +60,19 @@
     "work":[
       {
         "company":"SCRIMBA",
-        "title":"développeur",
+        "title":"Développeur React",
         "years":"2020",
-        "description":"Apprentissage de REACT et de ses outils avancés, par la réalisation d'exercices interactifs. Réalisation de projets: Site de réservation hotelière, Salon de chat en temps réel, Site de recherche de films, Site de recherche pour recettes de cuisine. Techs utilisées: Firebase, Typecript, Mikro-orm..."        
+        "description":"Apprentissage de REACT et de ses outils avancés, par la réalisation d'exercices interactifs. Réalisation de projets: Site de réservation hotelière, Salon de chat en temps réel, Site de recherche de films, Site de recherche pour recettes de cuisine. Techs utilisées: React, NodeJs, Firebase, Typecript, Mikro-orm, Express..."        
       },
       {
         "company":"WOP",
-        "title":"développeur stagiaire",
+        "title":"Développeur",
         "years":"2019",
         "description":"Développement en fullstack des composants d'une application Angular de billetterie pour transports urbains. Utilisation de Git & Jira pour le versionning, Mocha, Chai & Postman pour les phases de tests, MongoDB Nosqlbooster pour la base de données. Développement de la partie achats, de l'interface utilisateur et de l'interface administrateur. Réalisation des test (TDD), développement de correctifs."
       },
       {
         "company":"WILD CODE SCHOOL",
-        "title":"développeur Web/Logiciels",
+        "title":"Développeur Web/Logiciels",
         "years":"2018",
         "description":"Formation intensive sur Javascript, Node.js, REACT, HTML, CSS, avec notamment l'utilisation de Git & GitHub, MongoDB, MySQL, Eléctron, Bootstrap. Réalisation & présentation de 3 projets en méthodes agiles, avec le rôle de scrum-master."
       },

@@ -43,38 +43,45 @@ function Resume(props) {
 
   return (
     <section id="resume">
-    
-      <div className="row education">
-
-        <div className="six columns header-col">
-          <h1><span onClick={toggleDisplay}>Formation</span></h1>
-        </div>
-        <div className="six columns header-col">
-          <h1><span onClick={toggleDisplay}>Expérience</span></h1>
-        </div>
-
-        <div className="six columns main-col">
-          {education}
-        </div>
-        <div className="six columns main-col">
-          {work}
-        </div>
-
-      </div>
 
       <div className="row skill">
 
         <div className="three columns header-col">
           <h1><span>Technologies</span></h1>
         </div>
-        <div className="nine columns main-col"><p className="lead center">{skillmessage}</p></div>
 
-        <div className="skills-container">
-				  <ul className="bgrid-quarters s-bgrid-thirds cf">
-					  {skills}
-					</ul>
-			  </div>
+        <div className="nine columns main-col">
+          <p className="lead center">{skillmessage}</p>
+        </div>
+
+        <div className="twelve columns main-col">
+          <div className="skills-container">
+            <ul className="bgrid-custom s-bgrid-custom cf">
+              {skills}
+            </ul>
+          </div>
+        </div>
+
       </div>
+    
+      <div className="row education">
+
+        <div className="eight columns header-col">
+          <h1><span onClick={toggleDisplay}>Expérience</span></h1>
+        </div>
+        <div className="four columns header-col">
+          <h1><span onClick={toggleDisplay}>Formation</span></h1>
+        </div>
+
+        <div className="eight columns main-col">
+          {work}
+        </div>
+        <div className="four columns main-col">
+          {education}
+        </div>
+
+      </div>
+
     </section>
   );
 }
