@@ -3,6 +3,7 @@ import './App.css';
 import Header from './Components/Header';
 import About from './Components/About';
 import Resume from './Components/Resume';
+import { DisplayContextProvider } from './displayContext';
 // import Footer from './Components/Footer';
 // import ReactGA from 'react-ga';
 // import $ from 'jquery';
@@ -27,15 +28,17 @@ function App() {
   }, [])
  
   return (
-    <div className="App">
-      <Header data={resumeData.main}/>
-      <About data={resumeData.main}/>
-      <Resume data={resumeData.resume}/>
-      <Portfolio data={resumeData.portfolio}/>
-      {/* <Testimonials data={resumeData.testimonials}/> */}
-      {/* <Contact data={resumeData.main}/> */}
-      {/* <Footer data={resumeData.main}/> */}
-    </div>
+    <DisplayContextProvider value={'none'}>
+      <div className="App">
+        <Header data={resumeData.main}/>
+        <About data={resumeData.main}/>
+        <Resume data={resumeData.resume}/>
+        <Portfolio data={resumeData.portfolio}/>
+        {/* <Testimonials data={resumeData.testimonials}/> */}
+        {/* <Contact data={resumeData.main}/> */}
+        {/* <Footer data={resumeData.main}/> */}
+      </div>
+    </DisplayContextProvider>
   )
 
 }
