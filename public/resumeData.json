@@ -137,6 +137,12 @@
   "portfolio":{
     "projects": [
       {
+        "title":"Projets personnels",
+        "category":"Mon repertoire de créations",
+        "image":"github-logo.png",
+        "url":"https://github.com/3C2H/"
+      },
+      {
         "title":"Wild Codak",
         "category":"Gallerie d'exposition photographique, design & responsive",
         "image":"Wildocodak-home.png",
@@ -153,12 +159,6 @@
         "category":"Application permettant l'achat et l'utilisation de titres de transport dématérialisés",
         "image":"WOP-LOGO-GREEN.png",
         "url":"http://wop-app.com/"
-      },
-      {
-        "title":"Projets personnels",
-        "category":"mon repertoire de créations",
-        "image":"github-logo.png",
-        "url":"https://github.com/3C2H/"
       }
     ]
   },
